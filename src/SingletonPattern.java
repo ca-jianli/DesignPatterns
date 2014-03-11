@@ -37,24 +37,13 @@ public class SingletonPattern {
 			return singleton;
 		}
 
-		private int get() {
+		public int get() {
 			return value;
 		}
 
-		private void set(int x) {
+		public void set(int x) {
 			value = x;
 		}
 	}
 
-	public static void main(String[] args) {
-		Singleton one = Singleton.getInstance();
-		System.out.println(one.get());
-		one.set(100);
-		System.out.println(one.get());
-
-		// two is assigned the same Singleton instance as one
-
-		Singleton two = Singleton.getInstance();
-		System.out.println(two.get());
-	}
 }

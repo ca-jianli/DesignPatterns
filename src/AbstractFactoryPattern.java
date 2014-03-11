@@ -16,18 +16,18 @@
  */
 public class AbstractFactoryPattern {
 	public interface Button {
-		public void draw();
+		public String draw();
 	}
 
 	public static class WindowsButton implements Button {
-		public void draw() {
-			System.out.println("Draw Windows Button");
+		public String draw() {
+			return "Draw Windows Button";
 		}
 	}
 
 	public static class MacButton implements Button {
-		public void draw() {
-			System.out.println("Draw mac Button");
+		public String draw() {
+			return "Draw Mac Button";
 		}
 	}
 
@@ -49,21 +49,5 @@ public class AbstractFactoryPattern {
 		public Button createButton() {
 			return new MacButton();
 		}
-	}
-
-	public static void main(String[] args) {
-
-		// client is isolated from platform specific implementation and creation
-		// of button. client is only aware of the Button interface.
-
-		AbstractFactory factory = new WindowsFactory();
-		Button button = factory.createButton();
-		button.draw();
-
-		// Simply change the concrete factory to switch to another platform
-
-		factory = new MacFactory();
-		button = factory.createButton();
-		button.draw();
 	}
 }
