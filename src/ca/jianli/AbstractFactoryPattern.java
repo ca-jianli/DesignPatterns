@@ -17,6 +17,10 @@ package ca.jianli;
  * 
  */
 public class AbstractFactoryPattern {
+
+	// product hierachy: abstract product Button and concrete class
+	// WindowsButton and MacButton, etc
+
 	public interface Button {
 		public String draw();
 	}
