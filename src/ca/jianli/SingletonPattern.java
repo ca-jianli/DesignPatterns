@@ -1,3 +1,4 @@
+package ca.jianli;
 /**
  * Singleton design pattern makes the class of the single instance object
  * responsible for creation and management of the instance. The constructor is
