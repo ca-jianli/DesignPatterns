@@ -50,4 +50,8 @@ public class AbstractFactoryPattern {
 			return new MacButton();
 		}
 	}
+
+	public static void main(String[] args) {
+		// do nothing
+	}
 }

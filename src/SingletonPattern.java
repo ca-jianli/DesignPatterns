@@ -44,6 +44,10 @@ public class SingletonPattern {
 		public void set(int x) {
 			value = x;
 		}
+		
+		public static void main(String[] args) {
+			// do nothing
+		}
 	}
 
 }
