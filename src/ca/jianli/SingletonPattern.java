@@ -1,4 +1,5 @@
 package ca.jianli;
+
 /**
  * Singleton design pattern makes the class of the single instance object
  * responsible for creation and management of the instance. The constructor is
@@ -45,10 +46,10 @@ public class SingletonPattern {
 		public void set(int x) {
 			value = x;
 		}
-		
-		public static void main(String[] args) {
-			// do nothing
-		}
+
 	}
 
+	public static void main(String[] args) {
+		// do nothing
+	}
 }
