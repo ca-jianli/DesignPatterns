@@ -18,33 +18,23 @@ package ca.jianli;
 public class SingletonPattern {
 	public static class Singleton {
 
-		private int value;
-
-		// single instance of class
-
-		private static Singleton singleton = null;
-
 		// private constructor
 
 		private Singleton() {
-			// do something;
+			// do initialization;
 		}
 
-		// public accessor method with lazy construction
+		// public accessor method with lazy construction using nested static
+		// class; thread safe and lazy loading without need for synchronization
+		// or locks; SingletonHolder class doesn't get loaded until
+		// Singleton.getInstance() is called for the first time
+
+		private static class SingletonHolder {
+			public static final Singleton instance = new Singleton();
+		}
 
 		public static Singleton getInstance() {
-			if (singleton == null) {
-				singleton = new Singleton();
-			}
-			return singleton;
-		}
-
-		public int get() {
-			return value;
-		}
-
-		public void set(int x) {
-			value = x;
+			return SingletonHolder.instance;
 		}
 
 	}
