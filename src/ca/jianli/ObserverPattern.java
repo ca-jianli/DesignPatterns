@@ -1,4 +1,5 @@
 package ca.jianli;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,6 +7,10 @@ import java.util.List;
  * Observer pattern defines a very decoupled interface that allows for multiple
  * observers to be defined at runtime. It defines a one-to-many relationship, in
  * which the subject updates all its registered observers.
+ * 
+ * The communication can be a mixture of push (passing an object to observer)
+ * and pull (passing a pointer to subject to observer, which then can be used to
+ * query subject).
  * 
  * @author Jian Li
  * 
@@ -15,7 +20,7 @@ public class ObserverPattern {
 	public static abstract class Observer {
 		private String view;
 
-		public abstract void update(Subject num, Object arg);
+		public abstract void update(Subject sub, Object arg);
 
 		protected void set(String s) {
 			view = s;
