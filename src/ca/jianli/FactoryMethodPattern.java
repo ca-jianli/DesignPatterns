@@ -19,7 +19,9 @@ package ca.jianli;
  * Method 2 is becoming more popular. One reason being that it completely
  * decouples the client from the implementation details of derived classes.
  * 
- * Method 2 is implemented here.
+ * Method 2 is implemented here.  
+ * 
+ * Method 2 is called Simple Factory Method.
  * 
  * @author Jian Li
  * 
