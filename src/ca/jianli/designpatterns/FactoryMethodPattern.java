@@ -1,4 +1,4 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 /**
  * Factory method defines an interface or high-level logic for constructing an

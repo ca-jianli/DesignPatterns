@@ -1,13 +1,13 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.BridgePattern.CircleShape;
-import ca.jianli.BridgePattern.DrawingAPI1;
-import ca.jianli.BridgePattern.DrawingAPI2;
-import ca.jianli.BridgePattern.SquareShape;
+import ca.jianli.designpatterns.BridgePattern.CircleShape;
+import ca.jianli.designpatterns.BridgePattern.DrawingAPI1;
+import ca.jianli.designpatterns.BridgePattern.DrawingAPI2;
+import ca.jianli.designpatterns.BridgePattern.SquareShape;
 
 public class BridgePatternTest {
 

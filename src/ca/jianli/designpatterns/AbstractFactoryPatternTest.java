@@ -1,13 +1,13 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.AbstractFactoryPattern.AbstractFactory;
-import ca.jianli.AbstractFactoryPattern.Button;
-import ca.jianli.AbstractFactoryPattern.MacFactory;
-import ca.jianli.AbstractFactoryPattern.WindowsFactory;
+import ca.jianli.designpatterns.AbstractFactoryPattern.AbstractFactory;
+import ca.jianli.designpatterns.AbstractFactoryPattern.Button;
+import ca.jianli.designpatterns.AbstractFactoryPattern.MacFactory;
+import ca.jianli.designpatterns.AbstractFactoryPattern.WindowsFactory;
 
 public class AbstractFactoryPatternTest {
 

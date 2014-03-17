@@ -1,4 +1,4 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 /**
  * Bridge pattern separates the implementation from the abstraction so the two

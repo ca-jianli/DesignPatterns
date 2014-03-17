@@ -1,10 +1,10 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.SingletonPattern.Singleton;
+import ca.jianli.designpatterns.SingletonPattern.Singleton;
 
 public class SingletonPatternTest {
 

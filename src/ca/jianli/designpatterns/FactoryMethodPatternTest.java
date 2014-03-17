@@ -1,11 +1,11 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.FactoryMethodPattern.Fruit;
-import ca.jianli.FactoryMethodPattern.FruitFactory;
+import ca.jianli.designpatterns.FactoryMethodPattern.Fruit;
+import ca.jianli.designpatterns.FactoryMethodPattern.FruitFactory;
 
 public class FactoryMethodPatternTest {
 

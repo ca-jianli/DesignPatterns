@@ -1,4 +1,4 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 /**
  * The builder pattern separate the construction process of a complex component

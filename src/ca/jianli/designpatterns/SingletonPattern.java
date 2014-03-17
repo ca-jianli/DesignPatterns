@@ -1,4 +1,4 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 /**
  * Singleton design pattern makes the class of the single instance object

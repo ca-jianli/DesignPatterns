@@ -1,4 +1,4 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 import java.util.ArrayList;
 import java.util.List;

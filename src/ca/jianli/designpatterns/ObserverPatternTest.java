@@ -1,13 +1,13 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.ObserverPattern.ObserverA;
-import ca.jianli.ObserverPattern.ObserverB;
-import ca.jianli.ObserverPattern.ObserverC;
-import ca.jianli.ObserverPattern.Subject;
+import ca.jianli.designpatterns.ObserverPattern.ObserverA;
+import ca.jianli.designpatterns.ObserverPattern.ObserverB;
+import ca.jianli.designpatterns.ObserverPattern.ObserverC;
+import ca.jianli.designpatterns.ObserverPattern.Subject;
 
 public class ObserverPatternTest {
 

@@ -1,4 +1,4 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 /**
  * Provides an interface for creating families of related objects without

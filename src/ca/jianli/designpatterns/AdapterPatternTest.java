@@ -1,10 +1,10 @@
-package ca.jianli;
+package ca.jianli.designpatterns;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.AdapterPattern.QueueWrapper;
+import ca.jianli.designpatterns.AdapterPattern.QueueWrapper;
 
 public class AdapterPatternTest {
 
