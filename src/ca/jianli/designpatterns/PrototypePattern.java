@@ -7,7 +7,7 @@ import java.util.Map;
  * Prototype pattern co-opts one instance ("prototype") of a class for use as a
  * breeder of all future instances
  * 
- * Each concreate class implements a method called clone() which returns an new
+ * Each concrete class implements a method called clone() which returns a new
  * instance of the class. The base class contains the interface or abstract
  * method clone().
  * 
