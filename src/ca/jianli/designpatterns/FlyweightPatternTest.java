@@ -26,7 +26,7 @@ public class FlyweightPatternTest {
 		shop.takeOrder("Cappuccino", 121);
 		shop.takeOrder("Espresso", 121);
 
-		// shop.service();
+		shop.service();
 		assertEquals("total CoffeeFlavour objects made: 3", shop.report());
 	}
 

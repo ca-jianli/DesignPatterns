@@ -26,6 +26,6 @@ public class CommandPatternTest {
 			}
 		}
 
-		// switch0.service();
+		switch0.service();
 	}
 }

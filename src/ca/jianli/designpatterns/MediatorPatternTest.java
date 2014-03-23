@@ -16,7 +16,7 @@ public class MediatorPatternTest {
 		med.register(c1);
 		med.register(c2);
 		med.register(c3);
-		// c1.send("hello");
+		c1.send("hello");
 	}
 
 }

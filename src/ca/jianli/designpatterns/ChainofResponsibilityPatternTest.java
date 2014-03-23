@@ -15,7 +15,7 @@ public class ChainofResponsibilityPatternTest {
 		handlers.wrapAround(handlers);
 
 		for (int i = 0; i < 10; i++) {
-			// System.out.println(handlers.doIt(i));
+			System.out.println(handlers.doIt(i));
 		}
 	}
 

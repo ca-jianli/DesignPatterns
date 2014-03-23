@@ -18,7 +18,7 @@ public class CompositePatternTest {
 		m1.add(i1);
 		m1.add(m2);
 		m2.add(i2);
-		// m1.list();
+		m1.list();
 		assertEquals(4, m1.count());
 		assertEquals(2, m2.count());
 	}
