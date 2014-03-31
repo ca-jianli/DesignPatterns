@@ -7,6 +7,7 @@ import org.junit.Test;
 import ca.jianli.designpatterns.AbstractFactoryPattern.AbstractFactory;
 import ca.jianli.designpatterns.AbstractFactoryPattern.Button;
 import ca.jianli.designpatterns.AbstractFactoryPattern.MacFactory;
+import ca.jianli.designpatterns.AbstractFactoryPattern.Slider;
 import ca.jianli.designpatterns.AbstractFactoryPattern.WindowsFactory;
 
 public class AbstractFactoryPatternTest {
@@ -19,12 +20,16 @@ public class AbstractFactoryPatternTest {
 
 		AbstractFactory factory = new WindowsFactory();
 		Button button = factory.createButton();
+		Slider slider = factory.createSlider();
 		assertEquals("Draw Windows Button", button.draw());
+		assertEquals("Draw Windows Slider", slider.draw());
 
 		// Simply change the concrete factory to switch to another platform
 
 		factory = new MacFactory();
 		button = factory.createButton();
+		slider = factory.createSlider();
 		assertEquals("Draw Mac Button", button.draw());
+		assertEquals("Draw Mac Slider", slider.draw());
 	}
 }
