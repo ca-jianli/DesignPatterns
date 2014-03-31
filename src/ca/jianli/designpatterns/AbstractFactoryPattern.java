@@ -37,10 +37,28 @@ public class AbstractFactoryPattern {
 		}
 	}
 
+	public interface Slider {
+		public String draw();
+	}
+
+	public static class WindowsSlider implements Slider {
+		public String draw() {
+			return "Draw Windows Slider";
+		}
+	}
+
+	public static class MacSlider implements Slider {
+		public String draw() {
+			return "Draw Mac Slider";
+		}
+	}
+
 	// abstract factory
 
 	public interface AbstractFactory {
 		public Button createButton();
+
+		public Slider createSlider();
 	}
 
 	// concrete factories implementing product creation for different platforms.
@@ -49,11 +67,19 @@ public class AbstractFactoryPattern {
 		public Button createButton() {
 			return new WindowsButton();
 		}
+
+		public Slider createSlider() {
+			return new WindowsSlider();
+		}
 	}
 
 	public static class MacFactory implements AbstractFactory {
 		public Button createButton() {
 			return new MacButton();
+		}
+
+		public Slider createSlider() {
+			return new MacSlider();
 		}
 	}
 }
