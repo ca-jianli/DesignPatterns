@@ -1,11 +1,8 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.creational;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import ca.jianli.designpatterns.creational.PrototypePattern.Factory;
-import ca.jianli.designpatterns.creational.PrototypePattern.Person;
 
 public class PrototypePatternTest {
 

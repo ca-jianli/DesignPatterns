@@ -27,13 +27,13 @@ import java.util.Map;
  */
 
 public class PrototypePattern {
-	interface Person {
+	public interface Person {
 		Person clone();
 
 		String getName();
 	}
 
-	static class Tom implements Person {
+	public static class Tom implements Person {
 		public Person clone() {
 			return new Tom();
 		}
@@ -43,7 +43,7 @@ public class PrototypePattern {
 		}
 	}
 
-	static class Dick implements Person {
+	public static class Dick implements Person {
 		public Person clone() {
 			return new Dick();
 		}
@@ -53,7 +53,7 @@ public class PrototypePattern {
 		}
 	}
 
-	static class Harry implements Person {
+	public static class Harry implements Person {
 		public Person clone() {
 			return new Harry();
 		}
@@ -63,7 +63,7 @@ public class PrototypePattern {
 		}
 	}
 
-	static class Factory {
+	public static class Factory {
 		private static Map<String, Person> prototypes = new HashMap<String, Person>();
 		static {
 			prototypes.put("Tom", new Tom());

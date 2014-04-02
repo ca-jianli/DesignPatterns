@@ -1,12 +1,8 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.creational;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import ca.jianli.designpatterns.creational.BuilderPattern.Director;
-import ca.jianli.designpatterns.creational.BuilderPattern.KFCBuilder;
-import ca.jianli.designpatterns.creational.BuilderPattern.WendyBuilder;
 
 public class BuilderPatternTest {
 
