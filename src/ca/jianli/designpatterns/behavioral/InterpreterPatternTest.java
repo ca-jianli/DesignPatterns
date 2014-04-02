@@ -1,4 +1,4 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 import static org.junit.Assert.assertEquals;
 
@@ -7,10 +7,10 @@ import java.util.Map;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.InterpreterPattern.Expression;
-import ca.jianli.designpatterns.InterpreterPattern.Number;
-import ca.jianli.designpatterns.InterpreterPattern.Parser;
-import ca.jianli.designpatterns.InterpreterPattern.Variable;
+import ca.jianli.designpatterns.behavioral.InterpreterPattern.Expression;
+import ca.jianli.designpatterns.behavioral.InterpreterPattern.Number;
+import ca.jianli.designpatterns.behavioral.InterpreterPattern.Parser;
+import ca.jianli.designpatterns.behavioral.InterpreterPattern.Variable;
 
 public class InterpreterPatternTest {
 

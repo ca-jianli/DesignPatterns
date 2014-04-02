@@ -1,4 +1,4 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 /**
  * The Strategy design pattern is about making alternate implementations of an

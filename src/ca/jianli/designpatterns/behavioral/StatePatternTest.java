@@ -1,8 +1,8 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.StatePattern.CeilingFanPullChain;
+import ca.jianli.designpatterns.behavioral.StatePattern.CeilingFanPullChain;
 
 public class StatePatternTest {
 

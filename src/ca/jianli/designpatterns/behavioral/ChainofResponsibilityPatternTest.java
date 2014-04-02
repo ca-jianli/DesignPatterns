@@ -1,8 +1,8 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.ChainofResponsibilityPattern.Handler;
+import ca.jianli.designpatterns.behavioral.ChainofResponsibilityPattern.Handler;
 
 public class ChainofResponsibilityPatternTest {
 

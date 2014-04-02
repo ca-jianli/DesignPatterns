@@ -1,11 +1,11 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.CommandPattern.Light;
-import ca.jianli.designpatterns.CommandPattern.LightOffCommand;
-import ca.jianli.designpatterns.CommandPattern.LightOnCommand;
-import ca.jianli.designpatterns.CommandPattern.Switch;
+import ca.jianli.designpatterns.behavioral.CommandPattern.Light;
+import ca.jianli.designpatterns.behavioral.CommandPattern.LightOffCommand;
+import ca.jianli.designpatterns.behavioral.CommandPattern.LightOnCommand;
+import ca.jianli.designpatterns.behavioral.CommandPattern.Switch;
 
 public class CommandPatternTest {
 

@@ -1,4 +1,4 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 /**
  * Allow an object ("context", the wrapper) to change it's internal state (the

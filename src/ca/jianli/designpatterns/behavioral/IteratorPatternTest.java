@@ -1,10 +1,10 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.IteratorPattern.LinkedList;
+import ca.jianli.designpatterns.behavioral.IteratorPattern.LinkedList;
 
 public class IteratorPatternTest {
 

@@ -1,4 +1,4 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 /**
  * Memento pattern elevates the rollback and undo of the state ("memento") of an

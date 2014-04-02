@@ -1,9 +1,9 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.MediatorPattern.Colleague;
-import ca.jianli.designpatterns.MediatorPattern.Mediator;
+import ca.jianli.designpatterns.behavioral.MediatorPattern.Colleague;
+import ca.jianli.designpatterns.behavioral.MediatorPattern.Mediator;
 
 public class MediatorPatternTest {
 

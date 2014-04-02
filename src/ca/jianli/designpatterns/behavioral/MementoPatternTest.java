@@ -1,9 +1,9 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.MementoPattern.Originator;
-import ca.jianli.designpatterns.MementoPattern.Originator.Memento;
+import ca.jianli.designpatterns.behavioral.MementoPattern.Originator;
+import ca.jianli.designpatterns.behavioral.MementoPattern.Originator.Memento;
 
 public class MementoPatternTest {
 

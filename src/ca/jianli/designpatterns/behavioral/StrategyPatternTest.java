@@ -1,14 +1,14 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.StrategyPattern.Comparator1;
-import ca.jianli.designpatterns.StrategyPattern.Comparator2;
-import ca.jianli.designpatterns.StrategyPattern.Comparator3;
-import ca.jianli.designpatterns.StrategyPattern.Point3D;
-import ca.jianli.designpatterns.StrategyPattern.Sort3DPoints;
+import ca.jianli.designpatterns.behavioral.StrategyPattern.Comparator1;
+import ca.jianli.designpatterns.behavioral.StrategyPattern.Comparator2;
+import ca.jianli.designpatterns.behavioral.StrategyPattern.Comparator3;
+import ca.jianli.designpatterns.behavioral.StrategyPattern.Point3D;
+import ca.jianli.designpatterns.behavioral.StrategyPattern.Sort3DPoints;
 
 public class StrategyPatternTest {
 

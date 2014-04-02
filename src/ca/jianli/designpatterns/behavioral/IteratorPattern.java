@@ -1,4 +1,4 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.behavioral;
 
 /**
  * Iterator pattern elevate the traversal of elements in a collection into an
