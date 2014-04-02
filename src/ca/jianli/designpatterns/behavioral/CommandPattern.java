@@ -1,9 +1,12 @@
 package ca.jianli.designpatterns.behavioral;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-
 /**
+ * Behavioral Pattern
+ * 
+ * Command (233) Encapsulate a request as an object, thereby letting you
+ * parameterize clients with different requests, queue or log requests, and
+ * support undoable operations.
+ * 
  * Command pattern separates the component providing the service from that
  * invoking the service by adding a layer of indirection. By materializing the
  * method call or service as an Command object, the invoker can queue, undo, and
@@ -19,6 +22,9 @@ import java.util.Queue;
  * @author Jian Li
  * 
  */
+
+import java.util.ArrayDeque;
+import java.util.Queue;
 
 public class CommandPattern {
 

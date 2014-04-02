@@ -1,6 +1,11 @@
 package ca.jianli.designpatterns.behavioral;
 
 /**
+ * Behavioral Pattern
+ * 
+ * Iterator (257) Provide a way to access the elements of an aggregate object
+ * sequentially without exposing its underlying representation.
+ * 
  * Iterator pattern elevate the traversal of elements in a collection into an
  * object. It allows separation between algorithm and data structure. It allows
  * polymorphic traversal, and different ways of traversal.

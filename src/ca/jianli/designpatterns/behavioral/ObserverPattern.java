@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Behavioral Pattern
+ * 
+ * Observer (293) Define a one-to-many dependency between objects so that when
+ * one object changes state, all its dependents are notified and updated
+ * automatically.
+ * 
  * Observer pattern defines a very decoupled interface that allows for multiple
  * observers to be defined at runtime. It defines a one-to-many relationship, in
  * which the subject updates all its registered observers.

@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Behavioral Pattern
+ * 
+ * Mediator (273) Define an object that encapsulates how a set of objects
+ * interact. Mediator promotes loose coupling by keeping objects from referring
+ * to each other explicitly, and it lets you vary their interaction
+ * independently.
+ * 
  * Mediator elevates the communications between many-to-many objects into an OOD
  * class. It decouples the sources and destinations. Each object communicate
  * with the mediator class.

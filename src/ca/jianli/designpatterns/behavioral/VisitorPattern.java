@@ -1,6 +1,12 @@
 package ca.jianli.designpatterns.behavioral;
 
 /**
+ * Behavioral Pattern
+ * 
+ * Visitor (331) Represent an operation to be performed on the elements of an
+ * object structure. Visitor lets you define a new operation without changing
+ * the classes of the elements on which it operates.
+ * 
  * Uses double dispatching. Represent an operation to be performed on the
  * elements of an object hierarchy. Visitor let you define a new operation
  * without changing the classes of elements it operates on. It requires the

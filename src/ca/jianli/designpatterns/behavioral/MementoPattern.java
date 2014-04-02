@@ -1,6 +1,12 @@
 package ca.jianli.designpatterns.behavioral;
 
 /**
+ * Behavioral Pattern
+ * 
+ * Memento (283) Without violating encapsulation, capture and externalize an
+ * object's internal state so that the object can be restored to this state
+ * later.
+ * 
  * Memento pattern elevates the rollback and undo of the state ("memento") of an
  * object ("originator") to full object status. The client ("caretaken") knows
  * when and why to backup the state of the "originator". The "originator" knows

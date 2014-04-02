@@ -1,9 +1,12 @@
 package ca.jianli.designpatterns.behavioral;
 
-import java.util.Map;
-import java.util.Stack;
-
 /**
+ * Behavioral Pattern
+ * 
+ * Interpreter (243) Given a language, define a represention for its grammar
+ * along with an interpreter that uses the representation to interpret sentences
+ * in the language.
+ * 
  * Map a domain to a language, a language to a grammar, and the grammar to a
  * hierarchy of object-oriented design.
  * 
@@ -20,6 +23,10 @@ import java.util.Stack;
  * Wikipedia
  * 
  */
+
+import java.util.Map;
+import java.util.Stack;
+
 public class InterpreterPattern {
 	interface Expression {
 		public int interpret(Map<String, Expression> variables);

@@ -1,6 +1,12 @@
 package ca.jianli.designpatterns.behavioral;
 
 /**
+ * Behavioral Pattern
+ * 
+ * Template Method (325) Define the skeleton of an algorithm in an operation,
+ * deferring some steps to subclasses. Template Method lets subclasses redefine
+ * certain steps of an algorithm without changing the algorithm's structure.
+ * 
  * Define the skeleton of an algorithm in an operation. Separate the standard
  * (invariant) steps from the peculiar (variable) steps. Implement the standard
  * step in abstract class, and create placeholder classes for the variable steps

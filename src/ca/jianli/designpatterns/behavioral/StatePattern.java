@@ -1,6 +1,11 @@
 package ca.jianli.designpatterns.behavioral;
 
 /**
+ * Behavioral Pattern
+ * 
+ * State (305) Allow an object to alter its behavior when its internal state
+ * changes. The object will appear to change its class.
+ * 
  * Allow an object ("context", the wrapper) to change it's internal state (the
  * wrappee). The object will appear to have changed its class. The context
  * contains a pointer to an abstract state class. The concrete state class

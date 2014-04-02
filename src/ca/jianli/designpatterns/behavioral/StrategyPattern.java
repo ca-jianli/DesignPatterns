@@ -1,6 +1,12 @@
 package ca.jianli.designpatterns.behavioral;
 
 /**
+ * Behavioral Pattern
+ * 
+ * Strategy (315) Define a family of algorithms, encapsulate each one, and make
+ * them interchangeable. Strategy lets the algorithm vary independently from
+ * clients that use it.
+ * 
  * The Strategy design pattern is about making alternate implementations of an
  * algorithm interchangeable, and coupling the client of that algorithm to an
  * interface only.

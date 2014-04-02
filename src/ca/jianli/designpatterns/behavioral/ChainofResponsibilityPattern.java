@@ -1,8 +1,13 @@
 package ca.jianli.designpatterns.behavioral;
 
-import java.util.Random;
-
 /**
+ * Behavioral Pattern
+ * 
+ * Chain of Responsibility (223) Avoid coupling the sender of a request to its
+ * receiver by giving more than one object a chance to handle the request. Chain
+ * the receiving objects and pass the request along the chain until an object
+ * handles it.
+ * 
  * Chain of responsibility avoid coupling the sender of a request to its
  * receiver by giving more than one object a chance to handle the request. Chain
  * the receiving objects, and pass the request along the chain until an object
@@ -15,6 +20,8 @@ import java.util.Random;
  * @author Jian Li
  * 
  */
+import java.util.Random;
+
 public class ChainofResponsibilityPattern {
 	public static class Handler {
 		private static int numHandlers = 0;
