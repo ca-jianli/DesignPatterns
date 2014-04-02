@@ -1,4 +1,4 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.structural;
 
 /**
  * Structural Pattern

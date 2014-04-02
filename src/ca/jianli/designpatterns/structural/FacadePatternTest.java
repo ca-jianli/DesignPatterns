@@ -1,10 +1,10 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.structural;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.FacadePattern.Computer;
+import ca.jianli.designpatterns.structural.FacadePattern.Computer;
 
 public class FacadePatternTest {
 

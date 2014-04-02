@@ -1,6 +1,11 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.structural;
 
 /**
+ * Structural Pattern
+ * 
+ * Proxy (207) Provide a surrogate or placeholder for another object to control
+ * access to it.
+ * 
  * A proxy is a wrapper to the real object. It shares the same interface as the
  * underlying object. It can provides additional leverage such as, not limited
  * to:

@@ -1,12 +1,12 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.structural;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.ProxyPattern.Cheque;
-import ca.jianli.designpatterns.ProxyPattern.FundsFromBankAccount;
-import ca.jianli.designpatterns.ProxyPattern.Payment;
+import ca.jianli.designpatterns.structural.ProxyPattern.Cheque;
+import ca.jianli.designpatterns.structural.ProxyPattern.FundsFromBankAccount;
+import ca.jianli.designpatterns.structural.ProxyPattern.Payment;
 
 public class ProxyPatternTest {
 

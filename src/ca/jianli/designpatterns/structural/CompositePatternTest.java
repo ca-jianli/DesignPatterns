@@ -1,11 +1,11 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.structural;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.CompositePattern.IndividualContributor;
-import ca.jianli.designpatterns.CompositePattern.Manager;
+import ca.jianli.designpatterns.structural.CompositePattern.IndividualContributor;
+import ca.jianli.designpatterns.structural.CompositePattern.Manager;
 
 public class CompositePatternTest {
 

@@ -1,13 +1,13 @@
-package ca.jianli.designpatterns;
+package ca.jianli.designpatterns.structural;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.DecoratorPattern.ChocolateChipDecorator;
-import ca.jianli.designpatterns.DecoratorPattern.Icecream;
-import ca.jianli.designpatterns.DecoratorPattern.SimpleIcecream;
-import ca.jianli.designpatterns.DecoratorPattern.WhipCreamDecorator;
+import ca.jianli.designpatterns.structural.DecoratorPattern.ChocolateChipDecorator;
+import ca.jianli.designpatterns.structural.DecoratorPattern.Icecream;
+import ca.jianli.designpatterns.structural.DecoratorPattern.SimpleIcecream;
+import ca.jianli.designpatterns.structural.DecoratorPattern.WhipCreamDecorator;
 
 public class DecoratorPatternTest {
 
