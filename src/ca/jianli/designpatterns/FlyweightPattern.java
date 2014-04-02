@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * Structural Pattern
+ * 
+ * Flyweight (195) Use sharing to support large numbers of fine-grained objects
+ * efficiently.
+ * 
  * When we need to create many (small) objects that share certain intrinsic
  * properties, we can improve memory usage effciency by separating out the
  * shared intrinsic property and wrap it inside a flyweight class. The client

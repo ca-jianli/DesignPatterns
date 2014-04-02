@@ -1,6 +1,11 @@
 package ca.jianli.designpatterns;
 
 /**
+ * Structural Pattern
+ * 
+ * Bridge (151) Decouple an abstraction from its implementation so that the two
+ * can vary independently.
+ * 
  * Bridge pattern separates the implementation from the abstraction so the two
  * can vary independently. Insulation. Expose an interface to implementation in
  * the class abstraction, but buries concrete implementation in its own

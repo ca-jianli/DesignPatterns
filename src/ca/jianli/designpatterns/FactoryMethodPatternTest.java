@@ -4,8 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.FactoryMethodPattern.Fruit;
-import ca.jianli.designpatterns.FactoryMethodPattern.FruitFactory;
+import ca.jianli.designpatterns.creational.FactoryMethodPattern.Fruit;
+import ca.jianli.designpatterns.creational.FactoryMethodPattern.FruitFactory;
 
 public class FactoryMethodPatternTest {
 

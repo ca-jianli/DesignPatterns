@@ -4,9 +4,9 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.BuilderPattern.Director;
-import ca.jianli.designpatterns.BuilderPattern.KFCBuilder;
-import ca.jianli.designpatterns.BuilderPattern.WendyBuilder;
+import ca.jianli.designpatterns.creational.BuilderPattern.Director;
+import ca.jianli.designpatterns.creational.BuilderPattern.KFCBuilder;
+import ca.jianli.designpatterns.creational.BuilderPattern.WendyBuilder;
 
 public class BuilderPatternTest {
 

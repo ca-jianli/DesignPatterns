@@ -1,6 +1,12 @@
 package ca.jianli.designpatterns;
 
 /**
+ * Structural Pattern
+ * 
+ * Decorator (175) Attach additional responsibilities to an object dynamically.
+ * Decorators provide a flexible alternative to subclassing for extending
+ * functionality.
+ * 
  * Attach additional responsibilities to an object dynamically. Client can
  * specify embellishment of a core object by recursively wrapping it.
  * 

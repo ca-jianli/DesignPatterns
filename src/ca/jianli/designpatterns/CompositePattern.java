@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Structural Pattern
+ * 
+ * Composite (163) Compose objects into tree structures to represent part-whole
+ * hierarchies. Composite lets clients treat individual objects and compositions
+ * of objects uniformly.
+ * 
  * Allow client to treat component and composite uniformly by creating an
  * abstraction over the component and composite, which contains shared
  * attributes and operations. The base class makes composites and components

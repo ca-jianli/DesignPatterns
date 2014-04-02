@@ -3,6 +3,12 @@ package ca.jianli.designpatterns;
 import java.util.Stack;
 
 /**
+ * Structural Pattern
+ * 
+ * Adapter (139) Convert the interface of a class into another interface clients
+ * expect. Adapter lets classes work together that couldn't otherwise because of
+ * incompatible interfaces.
+ * 
  * Adapter is a wrapper that wraps an existing class ("adaptee") with a new
  * interface, that the client want to use. The adapter "has" an instance of the
  * old class, and maps the client interface to the adaptee interface.

@@ -4,11 +4,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.AbstractFactoryPattern.AbstractFactory;
-import ca.jianli.designpatterns.AbstractFactoryPattern.Button;
-import ca.jianli.designpatterns.AbstractFactoryPattern.MacFactory;
-import ca.jianli.designpatterns.AbstractFactoryPattern.Slider;
-import ca.jianli.designpatterns.AbstractFactoryPattern.WindowsFactory;
+import ca.jianli.designpatterns.creational.AbstractFactoryPattern.AbstractFactory;
+import ca.jianli.designpatterns.creational.AbstractFactoryPattern.Button;
+import ca.jianli.designpatterns.creational.AbstractFactoryPattern.MacFactory;
+import ca.jianli.designpatterns.creational.AbstractFactoryPattern.Slider;
+import ca.jianli.designpatterns.creational.AbstractFactoryPattern.WindowsFactory;
 
 public class AbstractFactoryPatternTest {
 

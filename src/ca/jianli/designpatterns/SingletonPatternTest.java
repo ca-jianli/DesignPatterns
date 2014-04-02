@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import ca.jianli.designpatterns.SingletonPattern.Singleton;
+import ca.jianli.designpatterns.creational.SingletonPattern.Singleton;
 
 public class SingletonPatternTest {
 
